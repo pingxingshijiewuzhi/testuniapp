@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "话题分类",
+  "usingComponents": {
+    "swiper-tab-header": "/components/index/swiper-tab-header",
+    "no-thing": "/components/common/nothing",
+    "load-more": "/components/common/load-more",
+    "new-topic-list": "/components/news/news-topic-list"
+  }
+}

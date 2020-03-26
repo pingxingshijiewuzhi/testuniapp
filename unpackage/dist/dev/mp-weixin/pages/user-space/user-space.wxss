@@ -1,0 +1,16 @@
+
+.user-space-margin{
+	margin:15rpx 0;
+}
+.user-space-data{
+	background-color: #FFFFFF;
+	position:relative;
+	z-index:3;
+	/* 还可以这样定义边框啊 */
+	border-top-right-radius: 20rpx;
+	border-top-left-radius:20rpx;
+	margin-top:-15rpx;
+}
+	
+
+

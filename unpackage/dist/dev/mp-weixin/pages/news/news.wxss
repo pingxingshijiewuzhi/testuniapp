@@ -1,0 +1,33 @@
+
+.search-input{
+	padding:20rpx;
+}
+.search-input>input{
+	background-color: #F4F4F4;
+	border-radius: 10rpx;
+}
+.input-placeholder{
+	font-size:26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.topic-swiper{
+	padding:0 20rpx 20rpx;
+}
+.topic-swiper image{
+	width:100%;
+	border-radius:10rpx;
+}
+.topic-new{
+	padding:20rpx;
+}
+.topic-new>view:first-child{
+	padding-bottom:10rpx;
+	font-size: 28rpx;
+}
+
+

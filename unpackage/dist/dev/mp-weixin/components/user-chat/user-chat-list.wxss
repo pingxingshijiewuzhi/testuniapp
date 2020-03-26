@@ -1,0 +1,66 @@
+
+.user-chat-item.data-v-bad17a22{
+	padding:0 20rpx;
+}
+.user-chat-time.data-v-bad17a22{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	        justify-content:center;
+	padding:50rpx 0;
+	color:#A2A2A2;
+	font-size:24rpx;
+}
+.user-chat-list.data-v-bad17a22{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+}
+.user-chat-list>image.data-v-bad17a22{
+	width:100rpx;
+	height:100rpx;
+	border-radius:100%;
+	-webkit-flex-shrink:0;
+	        flex-shrink:0;
+}
+.user-chat-list-body.data-v-bad17a22{
+	position: relative;
+	background:#F4F4F4;
+	padding:25rpx;
+	margin-left:20rpx;
+	border-radius:20rpx;
+	margin-right:100rpx;
+}
+.user-chat-list-body>image.data-v-bad17a22{
+	max-width: 150rpx;
+	max-height: 200rpx;
+}
+/* 我上学时学的三角形,现在才会，明白过来 */
+.user-chat-list-body.data-v-bad17a22:after{
+	position:absolute;
+	left:-30rpx;
+	right:0;
+	top:30rpx;
+	content:'';
+	width:0;
+	height:0;
+	border:16rpx solid red;
+	border-color:transparent red transparent transparent;
+}
+.user-chat-me.data-v-bad17a22{
+	-webkit-box-pack:end;
+	-webkit-justify-content:flex-end;
+	        justify-content:flex-end;
+}
+.user-chat-me .user-chat-list-body.data-v-bad17a22{
+	margin-right:20rpx;
+	margin-left:100rpx;
+}
+.user-chat-me .user-chat-list-body.data-v-bad17a22:after{
+	left:auto;
+	right:-30rpx;
+	border-color:transparent transparent transparent red;
+}
+

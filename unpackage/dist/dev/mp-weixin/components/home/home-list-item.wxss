@@ -1,0 +1,28 @@
+
+.home-list-hover.data-v-5f4d4a4b{
+	color:#F4F4F4;
+}
+.flexlist.data-v-5f4d4a4b{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	        align-items:center;
+	padding:20rpx;
+	border-top:1rpx solid #EEEEEE;
+	border-bottom:1rpx solid #EEEEEE;
+}
+.flexlist>view.data-v-5f4d4a4b:last-child{
+	color:#CCCCCC;
+}
+.flexlist-item.data-v-5f4d4a4b{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+}
+
+

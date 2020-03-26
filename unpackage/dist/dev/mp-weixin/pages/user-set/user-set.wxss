@@ -1,0 +1,12 @@
+
+.home-list.data-v-6d582234{
+	padding:20rpx;
+}
+.user-set-btn.data-v-6d582234{
+	width:100%;
+	padding:20rpx 0;
+	color:#333333!important;
+	background-color: #FFE933!important;
+	border:0!important;
+}
+

@@ -1,0 +1,38 @@
+
+.other-login.data-v-4f410d25{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+}
+.other-login-item.data-v-4f410d25{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	        flex:1;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	        justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	        align-items:center;
+}
+.other-login-item>view.data-v-4f410d25{
+	width:100rpx;
+	height:100rpx;
+	color:#FFFFFF;
+	border-radius:100%;
+	font-size:55rpx;
+	text-align: center;
+}
+.other-login-item .icon-QQ.data-v-4f410d25{
+	background-color: #2CAEFC;
+}
+.other-login-item .icon-weixin.data-v-4f410d25{
+	background-color: #2BD19B;
+}
+.other-login-item .icon-xinlangweibo.data-v-4f410d25{
+	background-color: #FC7729;
+}
+

@@ -1,0 +1,1 @@
+<view class="hone-data data-v-6692365e"><block wx:for="{{homedata}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block class="data-v-6692365e"><view class="home-data-item data-v-6692365e"><view class="data-v-6692365e">{{item.num}}</view>{{''+item.name+''}}</view></block></block></view>

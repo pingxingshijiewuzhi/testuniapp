@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 主页样式 */
+.user-space-userinfo.data-v-70235e80{
+	padding:0 30rpx;
+}
+.user-space-userinfo-item.data-v-70235e80{
+	padding:20rpx 0;
+	border-bottom:1rpx solid #EEEEEE;
+}
+.user-space-userinfo-item>view.data-v-70235e80{
+	color:#AAAAAA;
+}
+.user-space-userinfo-item>view.data-v-70235e80:first-child{
+	color:#333333;
+	font-size:35rpx;
+	padding:15rpx 0;
+}
+

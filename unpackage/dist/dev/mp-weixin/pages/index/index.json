@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "仿糗事百科",
+  "usingComponents": {
+    "index-list": "/components/index/index-list",
+    "swiper-tab-header": "/components/index/swiper-tab-header",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/nothing"
+  }
+}

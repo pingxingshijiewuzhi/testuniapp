@@ -1,0 +1,422 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// 这里是为了实验flex布局了class样式
+		// {
+		//     "path" : "pages/demo/demo",
+		//     "style" : {}
+		// },
+		// 为了方便
+		// {
+		//     "path" : "pages/user-set/user-set",
+		//     "style" : {
+		// 		"navigationBarTitleText":"设置"
+		// 	}
+		// },
+		// 这里是为了实验方便才把这个提前
+		 // {
+			//  "path" : "pages/user-list/user-list",
+			//  "style" : {
+			// 		"app-plus":{
+			// 			"animationType":"slide-in-left",
+			// 			"scrollIndicator":"none",//隐藏滚动条
+			// 			// 导航栏
+			// 			"titleNView":{
+			// 				// 标题栏控件是否显示左侧返回按钮
+			// 				"autoBackButton":false,
+			// 				// 导航栏中的搜索框
+			// 				"searchInput":{
+			// 					"align":"left",
+			// 					"backgroundColor":"#F7F7F7",
+			// 					"borderRadius":"4px",
+			// 					"placeholder":"搜索糗事",
+			// 					"placeholderColor":"#CCCCCC",
+			// 					"disabled":false
+			// 				},
+			// 				// 导航栏中的按钮
+			// 				"buttons":[
+			// 					// 右边
+			// 					{
+			// 						"color":"#000000",
+			// 						"colorPressed":"#BBBBBB",
+			// 						"float":"right",
+			// 						"fontSize":"16px",
+			// 						"text":"取消"
+			// 					}
+			// 				]
+			// 			}
+			// 		}
+			// 	}
+		 // },
+		
+		{
+		    "path" : "pages/news/news",
+		    "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "仿糗事百科",
+				// 设置编译到 App 平台的特定样式
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					// 导航栏
+					"titleNView":{
+						
+						// 导航栏中的搜索框
+						"searchInput":{
+							"align":"center",
+							"backgroundColor":"#F7F7F7",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#CCCCCC",
+							"disabled":true
+						},
+						// 导航栏中的按钮
+						"buttons":[
+							// 左边
+							{
+								"color":"#FF9619",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"40px",
+								// 按钮上文字使用的字体文件路径。不支持网络地址，请统一使用本地地址。
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue609"
+							},
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"40px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue653"
+							}
+						]
+					}
+				}
+			}
+		}
+        ,{
+            "path" : "pages/paper/paper",
+            "style" : {
+				"navigationBarTitleText":"小纸条",
+				"enablePullDownRefresh":true,//开启下拉刷新
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							// 左边
+							{
+								"color":"#FF9619",
+								"colorPressed":"#BBBBBB",
+								"float":"left",
+								"fontSize":"40px",
+								// 按钮上文字使用的字体文件路径。不支持网络地址，请统一使用本地地址。
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue845"
+							},
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"40px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue684"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText":"我的",
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+							"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"bounce":"none",
+					// 导航栏
+					"titleNView":{
+						// 标题栏控件是否显示左侧返回按钮
+						"autoBackButton":false,
+						// 导航栏中的搜索框
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#F7F7F7",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						},
+						// 导航栏中的按钮
+						"buttons":[
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/add-input/add-input",
+            "style" : {
+				"app-plus":{
+					"animationType":"slide-in-bottom",
+					"animationDuration":200,
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/topic-nav/topic-nav",
+            "style" : {
+				"navigationBarTitleText":"话题分类",
+				"app-plus":{
+					
+					"bounce":"false"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/topic-detail/topic-detail",
+            "style" : {
+			"enablePullDownRefresh":true,
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"titleNView":{
+						"type":"transparent",//渐变
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-list/user-list",
+            "style" : {
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none",//隐藏滚动条
+					// 导航栏
+					"titleNView":{
+						// 标题栏控件是否显示左侧返回按钮
+						"autoBackButton":false,
+						// 导航栏中的搜索框
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#F7F7F7",
+							"borderRadius":"4px",
+							"placeholder":"搜索糗事",
+							"placeholderColor":"#CCCCCC",
+							"disabled":false
+						},
+						// 导航栏中的按钮
+						"buttons":[
+							// 右边
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-chat/user-chat",
+            "style" : {
+				"navigationBarTitleText":"聊天页",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							
+							{
+								"color":"#000000",
+								"colorPressed":"#BBBBBB",
+								"float":"right",
+								"fontSize":"40px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue628"
+							}
+						]
+						
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText":"内容页",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						
+						 "buttons":[
+							{
+							"type":"menu"
+							}
+						 ]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-set/user-set",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+        ,{
+            "path" : "pages/user-set-repassword/user-set-repassword",
+            "style" : {
+				"navigationBarTitleText": "修改密码",
+				// 设置编译到 App 平台的特定样式
+				"app-plus":{
+					"scrollIndicator":"none"//隐藏滚动条
+					}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-email/user-set-email",
+            "style" : {
+				"navigationBarTitleText": "设置邮箱",
+				// 设置编译到 App 平台的特定样式
+				"app-plus":{
+					"scrollIndicator":"none"//隐藏滚动条
+					}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-userinfo/user-set-userinfo",
+            "style" : {
+				"navigationBarTitleText": "设置资料",
+				// 设置编译到 App 平台的特定样式
+				"app-plus":{
+					"scrollIndicator":"none"//隐藏滚动条
+					}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-help/user-set-help",
+            "style" : {
+				"navigationBarTitleText": "意见反馈",
+				// 设置编译到 App 平台的特定样式
+				"app-plus":{
+					"scrollIndicator":"none"//隐藏滚动条
+					}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-about/user-set-about",
+            "style" : {
+				"navigationBarTitleText": "关于仿糗百科",
+				// 设置编译到 App 平台的特定样式
+				"app-plus":{
+					"scrollIndicator":"none"//隐藏滚动条
+					}
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"titleNView":false,
+					"bounce":"none"
+					}
+			}
+        }
+        ,{
+            "path" : "pages/user-space/user-space",
+            "style" : {
+				"navigationBarTitleText":"个人中心",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿糗事百科",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color" : "#B5B5B5",
+		"selectedColor" : "#FEE42B",
+		"borderStyle" : "black",
+		"backgroundColor" : "#FFFFFF",
+		"list":[		
+		{
+		   "pagePath": "pages/index/index",
+			"iconPath": "/static/tabbar/index.png",
+			"selectedIconPath": "/static/tabbar/indexed.png",
+			"text": "糗事"
+		},
+		{
+		   "pagePath": "pages/news/news",
+			"iconPath": "/static/tabbar/news.png",
+			"selectedIconPath": "/static/tabbar/newsed.png",
+			"text": "动态"
+		},
+		{
+		   "pagePath": "pages/paper/paper",
+			"iconPath": "/static/tabbar/paper.png",
+			"selectedIconPath": "/static/tabbar/papered.png",
+			"text": "小纸条"
+		},
+		{
+		   "pagePath": "pages/home/home",
+			"iconPath": "/static/tabbar/home.png",
+			"selectedIconPath": "/static/tabbar/homeed.png",
+			"text": "我的"
+		}
+		]
+	}
+	
+}

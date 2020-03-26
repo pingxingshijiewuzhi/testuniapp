@@ -1,0 +1,26 @@
+
+.hone-data.data-v-6692365e{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	        align-items:center;
+	text-align: center;
+	padding:20rpx 40rpx;
+}
+.home-data-item.data-v-6692365e{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	        flex:1;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	        flex-direction:column;
+	color:#989898;
+}
+.home-data-item>view.data-v-6692365e{
+	color:#333333;
+	font-size:32rpx;
+}
+

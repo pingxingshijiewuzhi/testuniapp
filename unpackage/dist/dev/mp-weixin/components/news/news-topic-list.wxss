@@ -1,0 +1,24 @@
+
+.topic-list.data-v-9bf3523a{
+	padding: 10rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	        align-items:center
+}
+.topic-list image.data-v-9bf3523a{
+	width:150rpx;
+	height:150rpx;
+	margin-right: 20rpx;
+	border-radius:10rpx;
+}
+.topic-list>view>view.data-v-9bf3523a{
+	color:#A4A4A4;
+}
+.topic-list>view>view.data-v-9bf3523a:first-child{
+	color:#333333;
+	font-size: 28rpx;
+}
+

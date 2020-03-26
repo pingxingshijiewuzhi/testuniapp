@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 原来引入的uni.css里定义了active
+	怪不得引入这三个类名
+	uni-tab-bar
+	uni-swiper-tab
+	swiper-tab-list*/
+/* 	.uni-tab-bar{
+		height:100vh;
+	} */
+/* uni.css里有uni-swiper-tab,我这里覆盖,把height:100rpx修改为100upx */
+.uni-swiper-tab.data-v-2fbfb038{
+			width: 100%;
+			white-space: nowrap;
+			line-height: 100rpx;
+			height: 100rpx;
+			border-bottom: 1px solid #c8c7cc;
+}
+.uni-tab-bar .active.data-v-2fbfb038{
+	color:#343434;
+}
+.swiper-tab-list.data-v-2fbfb038{
+	color:#969696;
+	font-weight: bold;
+}
+.active	.swiper-tab-line.data-v-2fbfb038{
+	border-bottom: 6rpx solid #FEDE33;
+	width:70rpx;
+	margin:0 auto;
+	border-top: 6rpx solid #FEDE33;
+	border-radius: 20rpx;
+}
+
+

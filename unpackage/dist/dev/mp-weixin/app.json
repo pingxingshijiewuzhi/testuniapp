@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/index/index",
+    "pages/paper/paper",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/add-input/add-input",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail",
+    "pages/user-list/user-list",
+    "pages/user-chat/user-chat",
+    "pages/detail/detail",
+    "pages/user-set/user-set",
+    "pages/user-set-repassword/user-set-repassword",
+    "pages/user-set-email/user-set-email",
+    "pages/user-set-userinfo/user-set-userinfo",
+    "pages/user-set-help/user-set-help",
+    "pages/user-set-about/user-set-about",
+    "pages/login/login",
+    "pages/user-space/user-space"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仿糗事百科",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#FEE42B",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/tabbar/index.png",
+        "selectedIconPath": "/static/tabbar/indexed.png",
+        "text": "糗事"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "/static/tabbar/news.png",
+        "selectedIconPath": "/static/tabbar/newsed.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "iconPath": "/static/tabbar/paper.png",
+        "selectedIconPath": "/static/tabbar/papered.png",
+        "text": "小纸条"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/homeed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

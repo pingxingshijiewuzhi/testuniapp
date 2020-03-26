@@ -1,0 +1,30 @@
+
+.nologin{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding:20rpx 40rpx;
+}
+.accountlogin{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.home-nav{
+	padding:20rpx;
+}
+.home-nav>image{
+	border-radius:20rpx;
+	height:150rpx;
+}
+.home-list{
+	padding:20rpx;
+}
+
+
